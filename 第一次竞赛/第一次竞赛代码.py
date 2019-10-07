@@ -38,7 +38,7 @@ def grad_descent(dataMatin,classLabels):
     #随意生成一个3维向量
     weights = np.ones((n,1))
     alpha = 0.001#学习率
-    maxCycle = 500#指定次数
+    maxCycle = 460#指定次数
     
     for i in range(maxCycle):
         #逻辑回归的预测函数
